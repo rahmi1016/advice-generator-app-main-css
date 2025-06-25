@@ -23,3 +23,6 @@ getAdvice();
 
 const shuffle = document.getElementById("shuffle");
 shuffle.addEventListener("click", getAdvice);
+
+document.addEventListener("DOMContentLoaded", getAdvice);
+   
